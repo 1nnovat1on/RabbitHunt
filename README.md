@@ -5,18 +5,17 @@
 
 #master plan: 
 
-#to train many animals and other characters using machine learning environments
+  #to train many animals and other characters using machine learning environments
 
-#plan to build Gmod for the Oculus Quest
+  #plan to build Gmod for the Oculus Quest
 
-#integrate gpt-2 or gpt-3 driven character dialogue 
+  #integrate gpt-2 or gpt-3 driven character dialogue 
 
-#Software/APIs:
+#Software/APIs/Tools:
 
 #Unity
-
 #MLAgent
-
 #Blender
-
 #GPT-2
+#VSCode
+#Github
