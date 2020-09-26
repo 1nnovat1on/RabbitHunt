@@ -1,21 +1,25 @@
 ﻿# RabbitHunt
-#An attempt to train a rabbit to run away from me using MLAgent
+An attempt to train a rabbit to run away from me using MLAgent
 
-#plan to build a hunting game
+plan to build a hunting game
 
-#master plan: 
+master plan: 
 
-  #to train many animals and other characters using machine learning environments
+  to train many animals and other characters using machine learning environments
 
-  #plan to build Gmod for the Oculus Quest
+  plan to build Gmod for the Oculus Quest
 
-  #integrate gpt-2 or gpt-3 driven character dialogue 
+  integrate gpt-2 or gpt-3 driven character dialogue 
 
-#Software/APIs/Tools:
+Software/APIs/Tools:
 
-#Unity
-#MLAgent
-#Blender
-#GPT-2
-#VSCode
-#Github
+Unity
+MLAgent
+Blender
+GPT-2
+VSCode
+Github
+
+Look at these links!
+
+AI trained virtual character animation: https://youtu.be/7c6oQP1u2eQ
