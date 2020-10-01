@@ -25,7 +25,7 @@ public class GamePad : MonoBehaviour
             if (gamepad == null)
             {
                 return;
-            }    
+            } 
 
             //rotation
             if (gamepad.rightStick.IsActuated())

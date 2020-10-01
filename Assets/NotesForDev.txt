@@ -1,1 +1,5 @@
 Can switching chars be refined?
+
+It's time to make the Gamepad script a class which can be inherited.
+
+Then if other characters have different movement styles, I can modify them.
