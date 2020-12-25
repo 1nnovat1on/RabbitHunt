@@ -14,7 +14,6 @@ public class activeSwitcher : MonoBehaviour
     void Start()
     {
         Models = GameObject.Find("3DModels");
-
     }
 
     void Update()
@@ -48,7 +47,6 @@ public class activeSwitcher : MonoBehaviour
         
         for(int i = 0; i < Models.transform.childCount; i++)
         {
-            
             CurrentChild = (GamePad) Models.transform.GetChild(i).GetComponent(typeof(GamePad));
             
             if (CurrentChild.setGamepadControl == true)

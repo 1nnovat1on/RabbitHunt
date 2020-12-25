@@ -6,7 +6,6 @@ using UnityEngine.InputSystem;
 public class GamePad : MonoBehaviour
 {
     Transform ObjectsTransform;
-    Rigidbody ObjectsRigidBody;
     public bool setGamepadControl = false;
    
     void FixedUpdate()
@@ -19,7 +18,6 @@ public class GamePad : MonoBehaviour
         if (onOrOff == true)
         {
             ObjectsTransform = GetComponent<Transform>();
-            ObjectsRigidBody = GetComponent<Rigidbody>();
              
             var gamepad = Gamepad.current;
             
@@ -27,7 +25,7 @@ public class GamePad : MonoBehaviour
             if (gamepad == null)
             {
                 return;
-            } 
+            }    
 
             //rotation
             if (gamepad.rightStick.IsActuated())
@@ -79,14 +77,6 @@ public class GamePad : MonoBehaviour
                 ObjectsTransform.Translate( travelVector * .5f);     
             }
 
-
-            if (gamepad.startButton.isPressed)
-            {
-                ObjectsTransform.position = new Vector3(0f, 1f, 0f);
-                ObjectsTransform.rotation = new Quaternion(0f, 0f, 0f, 0f);
-            }
-            
-            
         }
         
     }

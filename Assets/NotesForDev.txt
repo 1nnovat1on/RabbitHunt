@@ -1,5 +1,9 @@
 Can switching chars be refined?
+I'd like to switch back and forth instead of in just one direction
 
 It's time to make the Gamepad script a class which can be inherited.
 
 Then if other characters have different movement styles, I can modify them.
+
+bug:
+random bunny rotation
