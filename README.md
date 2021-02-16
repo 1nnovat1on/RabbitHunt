@@ -1,4 +1,7 @@
 ﻿# RabbitHunt
+ 
+ Currently this is just a custom controller system made in C# for xbox controllers. I can control objects on the screen and switch characters.
+ 
 An attempt to train a rabbit to run away from me using MLAgent
 
 plan to build a hunting game
